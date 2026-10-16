@@ -1,0 +1,26 @@
+﻿{
+  "label": "previous-minimal-json",
+  "utc": "2026-10-16T01:41:58.7616623Z",
+  "os": "Microsoft Windows NT 10.0.26200.0",
+  "processId": 61248,
+  "structured": true,
+  "prompt": "who is the fastest gun in the west?",
+  "schema": "{\u0022type\u0022:\u0022object\u0022,\u0022properties\u0022:{\u0022answer\u0022:{\u0022type\u0022:\u0022string\u0022}},\u0022required\u0022:[\u0022answer\u0022]}",
+  "outcome": "complete",
+  "nativeStatus": "Complete",
+  "elapsedSeconds": 5.4571058,
+  "progressCount": 0,
+  "text": "{\u0022answer\u0022 : \u0022Bill Pickett\u0022, \u0022credibility\u0022 : \u0022medium\u0022}",
+  "events": [
+    "1.078s GetReadyState=Ready",
+    "1.089s LanguageModel.CreateAsync ENTER",
+    "1.266s LanguageModel.CreateAsync RETURN",
+    "1.313s MODULE Microsoft.WindowsAppRuntime.dll version=2.0 SHA256=66E152349EF591CB4720E3F1D794EF264EA44C79D7D1042BDABCB4B6752E04DB",
+    "1.336s MODULE Microsoft.UI.Xaml.dll version=3.2.3.2608 (0B89C97FFDAC(ContainerAdministrator)-1e680273635949931b1a5530bb901f896686c108) SHA256=07C11D088AE803A3C2787DA0912182F88A2931104B3FE9E501CBB124705A45EE",
+    "1.342s MODULE Microsoft.Windows.AI.Text.dll version=2.4.7.28936 SHA256=77E09F777C6129E918CAE2C3FCA4664F6E675A2E57615BE353E29D2F210688A4",
+    "1.342s GenerateStructuredJsonResponseAsync ENTER",
+    "1.462s GenerateStructuredJsonResponseAsync RETURNED ASYNC OPERATION",
+    "5.382s RESULT status=Complete error=",
+    "5.385s TEXT {\u0022answer\u0022 : \u0022Bill Pickett\u0022, \u0022credibility\u0022 : \u0022medium\u0022}"
+  ]
+}

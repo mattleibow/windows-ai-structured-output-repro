@@ -1,0 +1,24 @@
+﻿{
+  "label": "previous-plain-1",
+  "utc": "2026-10-16T01:37:18.4942233Z",
+  "os": "Microsoft Windows NT 10.0.26200.0",
+  "processId": 139592,
+  "structured": false,
+  "prompt": "User: who is the fastest gun in the west?",
+  "schema": null,
+  "outcome": "cancelled-or-25s-bound",
+  "nativeStatus": "",
+  "elapsedSeconds": 25.0929576,
+  "progressCount": 0,
+  "text": "",
+  "events": [
+    "1.084s GetReadyState=Ready",
+    "1.095s LanguageModel.CreateAsync ENTER",
+    "1.275s LanguageModel.CreateAsync RETURN",
+    "1.311s MODULE Microsoft.WindowsAppRuntime.dll version=2.0 SHA256=66E152349EF591CB4720E3F1D794EF264EA44C79D7D1042BDABCB4B6752E04DB",
+    "1.330s MODULE Microsoft.UI.Xaml.dll version=3.2.3.2608 (0B89C97FFDAC(ContainerAdministrator)-1e680273635949931b1a5530bb901f896686c108) SHA256=07C11D088AE803A3C2787DA0912182F88A2931104B3FE9E501CBB124705A45EE",
+    "1.335s MODULE Microsoft.Windows.AI.Text.dll version=2.4.7.28936 SHA256=77E09F777C6129E918CAE2C3FCA4664F6E675A2E57615BE353E29D2F210688A4",
+    "1.335s CreateContext ENTER",
+    "25.016s WAIT CANCELLED; native worker complete=False. This does not prove native recovery."
+  ]
+}

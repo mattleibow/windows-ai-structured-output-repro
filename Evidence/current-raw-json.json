@@ -1,0 +1,25 @@
+﻿{
+  "label": "current-raw-json",
+  "utc": "2026-10-16T01:40:39.9091632Z",
+  "os": "Microsoft Windows NT 10.0.26200.0",
+  "processId": 195084,
+  "structured": true,
+  "prompt": "who is the fastest gun in the west?",
+  "schema": "{\r  \u0022type\u0022: \u0022object\u0022,\r  \u0022properties\u0022: {\r    \u0022summary\u0022: {\r      \u0022description\u0022: \u0022A brief, accurate answer to the user\u0027s request. Do not invent details not supported by the prompt.\u0022,\r      \u0022type\u0022: \u0022string\u0022\r    },\r    \u0022keyPoints\u0022: {\r      \u0022description\u0022: \u0022Specific points supporting the summary. Use an empty list when there are no distinct supporting points.\u0022,\r      \u0022type\u0022: \u0022array\u0022,\r      \u0022items\u0022: { \u0022type\u0022: \u0022string\u0022 }\r    },\r    \u0022category\u0022: {\r      \u0022description\u0022: \u0022A short, broad category for the response, such as General, Technical, or Creative.\u0022,\r      \u0022type\u0022: \u0022string\u0022\r    },\r    \u0022sentiment\u0022: {\r      \u0022description\u0022: \u0022Classify the overall tone. Use Neutral for objective or factual replies.\u0022,\r      \u0022type\u0022: \u0022string\u0022,\r      \u0022enum\u0022: [\u0022Neutral\u0022, \u0022Positive\u0022, \u0022Negative\u0022, \u0022Mixed\u0022]\r    }\r  },\r  \u0022additionalProperties\u0022: false,\r  \u0022required\u0022: [\u0022summary\u0022, \u0022keyPoints\u0022, \u0022category\u0022, \u0022sentiment\u0022]\r}",
+  "outcome": "cancelled-or-25s-bound",
+  "nativeStatus": "",
+  "elapsedSeconds": 25.1067487,
+  "progressCount": 0,
+  "text": "",
+  "events": [
+    "0.867s GetReadyState=Ready",
+    "0.880s LanguageModel.CreateAsync ENTER",
+    "1.103s LanguageModel.CreateAsync RETURN",
+    "1.137s MODULE Microsoft.WindowsAppRuntime.dll version=2.0 SHA256=D764D3A18EF84A78ACADD202F0AAB97C023E0DC54AA15DCC87B8BF45681F8921",
+    "1.158s MODULE Microsoft.UI.Xaml.dll version=3.2.3.2609 (C99804D3DEB6(ContainerAdministrator)-904372d17169db919b8221474af503130f4e31bb) SHA256=1A1171B21F8367E14F302965D7CD3346D8BCFFE191C67288C6CAD1D084B7AF3C",
+    "1.165s MODULE Microsoft.Windows.AI.Text.dll version=2.5.3.10969 SHA256=DACC7657BBD5880EAF1EC23B4A1F3CB7E65A11F4C1F27186F453087409258EF0",
+    "1.165s GenerateStructuredJsonResponseAsync ENTER",
+    "1.300s GenerateStructuredJsonResponseAsync RETURNED ASYNC OPERATION",
+    "25.020s WAIT CANCELLED; native worker complete=False. This does not prove native recovery."
+  ]
+}

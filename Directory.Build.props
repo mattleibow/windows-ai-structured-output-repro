@@ -1,0 +1,15 @@
+<Project>
+  <PropertyGroup>
+    <SdkVariant Condition="'$(SdkVariant)' == ''">current</SdkVariant>
+    <BaseOutputPath>bin\$(SdkVariant)\</BaseOutputPath>
+    <BaseIntermediateOutputPath>obj\$(SdkVariant)\</BaseIntermediateOutputPath>
+    <DefaultItemExcludes>$(DefaultItemExcludes);bin\**;obj\**</DefaultItemExcludes>
+    <ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
+    <WindowsAppSdkVersion Condition="'$(SdkVariant)' == 'current'">2.5.4-experimental</WindowsAppSdkVersion>
+    <WindowsAiVersion Condition="'$(SdkVariant)' == 'current'">2.5.4-experimental</WindowsAiVersion>
+    <WindowsFoundationVersion Condition="'$(SdkVariant)' == 'current'">2.3.13-experimental</WindowsFoundationVersion>
+    <WindowsAppSdkVersion Condition="'$(SdkVariant)' == 'previous'">2.4.1-experimental</WindowsAppSdkVersion>
+    <WindowsAiVersion Condition="'$(SdkVariant)' == 'previous'">2.4.8-experimental</WindowsAiVersion>
+    <WindowsFoundationVersion Condition="'$(SdkVariant)' == 'previous'">2.3.11-experimental</WindowsFoundationVersion>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,39 @@
+# .NET build and publish output
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+[Aa]ppPackages/
+[Bb]undleArtifacts/
+[Gg]eneratedFiles/
+[Tt]est[Rr]esults/
+BenchmarkDotNet.Artifacts/
+
+# Visual Studio and user-specific settings
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.iml
+
+# Local runs (curated reports are kept in Evidence/)
+/Results/
+*.log
+
+# Generated packages and signing material
+*.nupkg
+*.snupkg
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+*.pfx
+*.p12
+*.key
+
+# Local environment and OS files
+.env
+.env.*
+.DS_Store
+Thumbs.db
+Desktop.ini
